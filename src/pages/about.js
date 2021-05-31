@@ -4,8 +4,10 @@ import Layout from "../components/Layout"
 const about = () => {
   return (
     <Layout>
-      <h2>++ About ++</h2>
-      <h2>hello from about page</h2>
+      <div className="about-heading">
+        <h1>++ About ++</h1>
+        <h1>hello from about page</h1>
+      </div>
     </Layout>
   )
 }
