@@ -370,6 +370,10 @@ form > *:last-child {
   transition: var(--transition);
 }
 .show-links {
+  /* value on youtube tutorial */
+  /* height: 383px; */
+  /* height: 0px; */
+  /* default in main.css */
   height: 23.9375rem;
 }
 
