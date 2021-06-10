@@ -27,11 +27,12 @@ const AllRecipes = () => {
   const recipes = data.allContentfulRecipe.nodes
   console.log(recipes)
   return (
-    <div>
-      <h4>all recipes</h4>
-      <TagsList />
-      <RecipesList />
-    </div>
+    <section className="recipes-container">
+      {/* access array in const recipes */}
+      <TagsList recipes={recipes} />
+      {/* access array in const recipes */}
+      <RecipesList recipes={recipes} />
+    </section>
   )
 }
 
