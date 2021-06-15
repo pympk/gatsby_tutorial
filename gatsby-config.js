@@ -42,5 +42,24 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_API_KEY,
       },
     },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              // family: "Montserrat",
+              family: "Average",
+              variants: ["400"],
+            },
+            {
+              // family: "Inconsolata",
+              family: "Average",
+              variants: ["400", "500", "600", "700"],
+            },
+          ],
+        },
+      },
+    },
   ],
 }
